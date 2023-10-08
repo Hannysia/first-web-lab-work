@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <body>
+        <table>
+            <tr>
+                <a href="../html/home.html"><img src="../img/my_logo.svg" alt="my_logo" style="width: 10%; height: auto;"></a>
+            </tr>
+            <tr>
+                <a href="home.html" style="font-family: 'Montserrat', sans-serif; text-decoration: none; margin: 2% 3%;">About  me</a>
+            </tr>
+            <tr>
+                <a href="futureplans.html" style="font-family: 'Montserrat', sans-serif; text-decoration: none; margin: 2% 3%">Future Plans</a>
+            </tr>
+            <tr>
+                <a href="hobbies.html" style="font-family: 'Montserrat', sans-serif; text-decoration: none; margin: 2% 3%">Hobbies</a>
+            </tr>
+            <tr>
+                <a href="projects.html" style="font-family: 'Montserrat', sans-serif; text-decoration: none; margin: 2% 3%">Projects</a>
+            </tr>
+            <tr>
+                <a href="search-me-form.html" style="font-family: 'Montserrat', sans-serif; text-decoration: none; margin: 2% 3%">Contact me </a>
+            </tr>
+            <br>
+            <tr><img src="../img/nature.jpg" alt="my_logo" style="width: 100%; opacity: .7; background-color: aqua;">
+                <span style="text-decoration: underline; text-align: center; font-family: 'Montserrat', sans-serif; font-size: 300%; font-weight: 800; 
+                        color:rgb(255, 255, 255); display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  padding: 10px;">
+                        <h4><i>"Contact me"</i></h4>
+                </span>
+            </tr>
+            <hr>
+
+            <tr>
+                <p>Я маю досить напружений графік роботи, тож прошу мене не турбувати в цей час позначений блакитним кольором. Прошу телефонувати мені у будні дні з 11-ої години по 18-ту.</p>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Час</th>
+                        <th>Понеділок</th>
+                        <th>Вівторок</th>
+                        <th>Середа</th>
+                        <th>Четвер</th>
+                        <th>П'ятниця</th>
+                        <th>Субота</th>
+                        <th>Неділя</th>
+                    </tr>
+                    <tr rowspan="2">
+                        <td>11:15-12:50</td>
+                        <td style="background-color: rgb(110, 227, 227);" colspan="5"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13:10-14:45</td>
+                        <td style="background-color: rgb(110, 227, 227);" colspan="5"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:55-16:30</td>
+                        <td></td>
+                        <td style="background-color: rgb(110, 227, 227);"></td>
+                        <td></td>
+                        <td style="background-color: rgb(110, 227, 227);" colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:55-16:30</td>
+                        <td></td>
+                        <td style="background-color: rgb(110, 227, 227);"></td>
+                        <td></td>
+                        <td style="background-color: rgb(110, 227, 227);" colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <p>
+                    Також, найзручнішим для мене варінатом було б, якби Ви заповнили форму і я зв'язалася з Вами сама.
+                </p>
+            </tr>
+            <tr>
+                <form action="#">
+                    <fieldset>
+                        <label for="fname">Ваше ім'я:</label><br>
+                        <input type="text" name="username" maxlength="30" placeholder="ім'я"/><br>
+
+                        <label for="father">Ваше по батькові:</label><br>
+                        <input type="text" name="username" maxlength="30" placeholder="по батькові" /><br>
+
+                        <label for="quest">Введіть зміст Вашого питання щодо мене</label><br>
+                        <textarea name="quest">Введіть своє питання</textarea><br>
+
+                        <label for="number">Ваше номер телефону:</label><br>
+                        <input type="number" name="user_phone" maxlength="13" placeholder="123-45-67-89"/><br>
+
+                        <label for="how">Як Вам ліпше, щоб я до Вас звернулася?:</label><br>
+                        
+                        <select name="instruments" size="4" multiple="multiple">
+                            <option value="telegram">Telegram</option>
+                            <option value="WhatsApp">Drums</option>
+                            <option value="Viber">Keyboard</option>
+                            <option value="Signal">Bass</option>
+                        </select>
+
+                        <p>Я також можу звернутися до Вас іншим способом. Залиште свої контакти електронної пошти, телеграмнік, а також ви можете залишити посилання на свої сторінки у Facebook, Twitter, Instagram</p>
+                        <p>Попередньо оберіть засіб спілкування</p>
+                        <input type="radio" id="Gmail" name="where" value="gmail">
+                        <label for="Gmail">Gmail</label><br>
+
+                        <input type="radio" id="telegram" name="where" value="telegram">
+                        <label for="telegram">Telegram</label><br>  
+
+                        <input type="radio" id="facebook" name="where" value="facebook">
+                        <label for="facebook">Facebook</label><br>
+
+                        <input type="radio" id="twitter" name="where" value="twitter">
+                        <label for="twitter">Twitter</label><br>  
+
+                        <input type="radio" id="instagram" name="where" value="instagram">
+                        <label for="instagram">Instagram</label><br>  
+
+                        <label for="quest">Введіть Ваші контакти, за допомогою яких я з Вами зв'яжусь</label><br>
+                        <textarea name="quest">Введіть свої контакти</textarea><br>
+
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form> 
+            </tr>
+
+        </table>
+    </body>
+</html>
+
